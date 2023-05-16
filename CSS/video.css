@@ -1,0 +1,91 @@
+
+.thumbnail {
+    width: 100%;
+    /* display: inline-block; not necessary due to grid*/
+    /*it represents the whole line from the text present also contains the full margin space */
+    /* object-fit: contain;
+    object-position: top;  Property for images to fit in crt borders*/
+
+
+}
+.thumbnail-row{
+}
+
+.search-bar {
+    display: block;
+}
+
+/* .video-title {
+    width:300px;
+} here we are forcing it to overlap */
+.video-title{
+    margin-top: 0%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.video-preview {
+    /* width: 300px;
+    display: inline-block;
+    it represents only the space required for the content also with margin
+    vertical-align:top;
+    margin-right: 15px; */
+}
+
+.video-stats{
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 25px;
+
+}
+.video-author{
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 4px;
+
+}
+
+.channel-pic {
+    /* display: inline-block;
+    width: 50px; */
+    vertical-align: top;/*  makes the text or pic top of the content-box */
+    
+}
+.video-info{
+    /* display: inline-block;
+    width: 245px; */
+    
+}
+.profile-pic{
+    width: 36px;
+    border-radius: 50px;
+}
+.thumbnail-row{
+    margin-bottom: 8px;
+    position: relative;
+}
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+.video-time{
+    
+             background-color:rgb(11, 11, 12);
+            color: white;
+            font-size: 12px;
+            font-weight: 500;
+            bottom: 10px;
+            right: 5px;
+            position:absolute;
+            padding:  4px 4px 4px 4px;
+            border-radius: 2px;
+        }
+        
